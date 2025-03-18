@@ -5,6 +5,7 @@ export const Contenido = () => {
         <>
             <div className="container-content">
                 <h1>HOLA DESDE COMPONENTE APP</h1>
+                <img src="" alt="" />
             </div>
         </>
     );

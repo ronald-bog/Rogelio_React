@@ -1,4 +1,5 @@
 $colorF: #555554;
+$rutaC: '../public/logos/react.svg';
 
 * {
   margin: 0;
@@ -6,11 +7,13 @@ $colorF: #555554;
 }
 
 body {
-  background-color: rgb(49, 49, 49);
+  //background-color: rgb(49, 49, 49);
+  background-image: url('#{$rutaC}');
+
   //color: red;
 
 }
 
-@import "scss/cabecera.scss";
-@import "scss/contenido.scss";
-@import "scss/footer.scss";
+@import "scss/cabecera";
+@import "scss/contenido";
+@import "scss/footer";
